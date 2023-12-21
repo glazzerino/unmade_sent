@@ -65,3 +65,4 @@ prompt = """
     """
 model.set_prompt(prompt)
 print("LLM output: ", model.get_completion().choices[0].message.content)
+
